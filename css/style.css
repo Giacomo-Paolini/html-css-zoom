@@ -33,6 +33,13 @@ body {
     align-items: center;
 }
 
+.justify-center {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
 header {
     height: 2.5em;
     padding-top: 0.5em;
@@ -81,4 +88,51 @@ div > span {
 
 img {
     display: block;
+}
+
+.container-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 6em;
+    background-color: darkgray;
+}
+
+.left-icons-footer {
+    gap: 10px;
+    padding-left: 30px;
+}
+.size-icon {
+    font-size: 35px;
+    text-align: center;
+}
+
+div > h5 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.container-icon {
+    text-align: center;
+    padding-left: 10px;
+}
+
+.arrow {
+    font-size: 20px;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+.red {
+    color: red;
+}
+
+#bt-footer {
+    background-color: lightgray;
+    height: 7em;
+    width: 12em;
+    border-collapse: collapse;
+    border: 0;
 }
