@@ -53,14 +53,14 @@ header {
 #bt-header1 {
     height: 2.5em;
     width: 8.5em;
-    background-color: gray;
+    background-color: #4A4A4A;
     border-radius: 10px;
 }
 
 #bt-header2 {
     height: 2.5em;
     width: 3em;
-    background-color: gray;
+    background-color: #4A4A4A;
     border-radius: 10px;
 }
 
@@ -138,5 +138,5 @@ div > h5 {
 }
 
 .green {
-    color: green;
+    color: #4BC800;
 }
