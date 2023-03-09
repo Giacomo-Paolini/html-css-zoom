@@ -15,8 +15,21 @@ body {
     display: flex;
 }
 
+.row-gap {
+    row-gap: 7px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
 .justify-end {
     justify-content: flex-end;
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -42,4 +55,30 @@ header {
     width: 3em;
     background-color: gray;
     border-radius: 10px;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.boxed-main {
+    max-width: 95vw;
+    margin: 0 auto;
+}
+
+div > span {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 0.4em;
+}
+
+.container-user {
+    width: calc(100% / 7 - 5px);
+    height: calc(100% / 5);
+    position: relative;
+}
+
+img {
+    display: block;
 }
