@@ -95,7 +95,7 @@ img {
     bottom: 0;
     width: 100vw;
     height: 6em;
-    background-color: darkgray;
+    background-color: #222222;
 }
 
 .left-icons-footer {
@@ -130,9 +130,13 @@ div > h5 {
 }
 
 #bt-footer {
-    background-color: lightgray;
+    background-color: #4A4A4A;
     height: 7em;
     width: 12em;
     border-collapse: collapse;
     border: 0;
+}
+
+.green {
+    color: green;
 }
